@@ -4,6 +4,6 @@ let val = document.querySelector('#counter');
 
 btn.addEventListener("click" , ()=>{
 	let currValue = parseInt(val.textContent);
-	alert(currValue + 1);
+	alert(currValue);
 	val.innerText = currValue + 1;
 })
